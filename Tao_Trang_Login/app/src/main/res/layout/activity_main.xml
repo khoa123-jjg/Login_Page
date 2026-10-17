@@ -78,6 +78,22 @@
                     android:checked="true"
                     android:text="Người dùng" />
             </RadioGroup>
+            <Button
+                android:id="@+id/btnChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thay đổi nội dung" />
+
+            <TextView
+                android:id="@+id/txtChage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Nội dung ban đầu"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

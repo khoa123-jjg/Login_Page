@@ -20,5 +20,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        binding.btnChange.setOnClickListener {
+            binding.txtChage.text = "Nội dung đã thay đổi"
+        }
     }
 }
